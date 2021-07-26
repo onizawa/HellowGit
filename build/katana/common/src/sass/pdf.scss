@@ -1,0 +1,246 @@
+@import "./style/variables";
+
+.content {
+  background: #f8f8f8;
+  padding: 50px 0;
+
+  @include sp {
+    padding: 30px 17px;
+  }
+
+  &__inner {
+    width: $content;
+    margin: 0 auto;
+    position: relative;
+    background: #fff;
+    border-radius: 7px;
+    padding: 35px 30px 30px;
+    box-sizing: border-box;
+
+    @include sp {
+      width: 100%;
+      padding: 0;
+      background: transparent;
+    }
+  }
+}
+
+.pdf {
+  &List {
+    &__item {
+      margin-bottom: 10px;
+
+      a {
+        display: block;
+        font-size: 19px;
+        @include space(20);
+        font-weight: bold;
+        color: #972f91;
+        border: 1px solid #a03f99;
+        border-radius: 6px;
+        padding: 25px 0 25px 65px;
+        position: relative;
+
+        @include sp {
+          font-size: 17px;
+          padding: 25px 0 25px 50px;
+        }
+
+        &::before {
+          content: "";
+          display: block;
+          width: 28px;
+          height: 30px;
+          background: url(/katana/common/img/icon_pdf.png) center / cover no-repeat;
+          position: absolute;
+          top: 50%;
+          left: 17px;
+          transform: translate(0, -50%);
+
+          @include sp {
+            width: 25px;
+            height: 28px;
+            left: 15px;
+          }
+        }
+
+        &::after {
+          content: "";
+          display: block;
+          width: 25px;
+          height: 25px;
+          background: url(/katana/common/img/icon_window.png) center / cover no-repeat;
+          position: absolute;
+          top: 50%;
+          right: 20px;
+          transform: translate(0, -50%);
+
+          @include sp {
+            width: 19px;
+            height: 19px;
+            right: 16px;
+          }
+        }
+
+        &:hover {
+          color: #fff;
+          background: #8a1e84;
+          border: 1px solid transparent;
+          background: -moz-linear-gradient(left, #8a1e84 0%, #c86fc0 100%); /* FF3.6-15 */
+          background: -webkit-linear-gradient(left, #8a1e84 0%,#c86fc0 100%); /* Chrome10-25,Safari5.1-6 */
+          background: linear-gradient(to right, #8a1e84 0%,#c86fc0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a1e84', endColorstr='#c86fc0',GradientType=1 ); /* IE6-9 */
+
+          @include sp {
+            color: #972f91;
+            background: #fff;
+            border: 1px solid #a03f99;
+          }
+
+          &::before {
+            background: url(/katana/common/img/icon_pdf_on.png) center / cover no-repeat;
+
+            @include sp {
+              background: url(/katana/common/img/icon_pdf.png) center / cover no-repeat;
+            }
+          }
+
+          &::after {
+            background: url(/katana/common/img/icon_window_on.png) center / cover no-repeat;
+
+            @include sp {
+              background: url(/katana/common/img/icon_window.png) center / cover no-repeat;
+            }
+          }
+        }
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.btn {
+  &Area {
+    width: $content;
+    margin: 40px auto;
+
+    @include sp {
+      width: 100%;
+      box-sizing: border-box;
+      margin: 30px auto;
+      padding: 0 17px;
+    }
+
+    a {
+      display: block;
+      width: 100%;
+      font-size: 21px;
+      @include space(80);
+      font-weight: bold;
+      text-align: center;
+      box-sizing: border-box;
+
+      @include sp {
+        font-size: 17px;
+      }
+    }
+
+    .btn {
+      &__next {
+        margin-bottom: 20px;
+        position: relative;
+        opacity: .3;
+
+        @include sp {
+          margin-bottom: 15px;
+        }
+
+        a {
+          line-height: 88px;
+          color: #fff;
+          background: #8a1e84;
+          border: 1px solid transparent;
+          background: -moz-linear-gradient(left, #8a1e84 0%, #c86fc0 100%); /* FF3.6-15 */
+          background: -webkit-linear-gradient(left, #8a1e84 0%,#c86fc0 100%); /* Chrome10-25,Safari5.1-6 */
+          background: linear-gradient(to right, #8a1e84 0%,#c86fc0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a1e84', endColorstr='#c86fc0',GradientType=1 ); /* IE6-9 */
+          border-radius: 6px;
+          transition: .3s;
+
+          @include sp {
+            line-height: 70px;
+          }
+
+          &:hover {
+            color: #972f91;
+            border: 1px solid #972f91;
+            background: #fff;
+            background: -moz-linear-gradient(left, #fff 0%, #fff 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(left, #fff 0%,#fff 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to right, #fff 0%,#fff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a1e84', endColorstr='#fff',GradientType=1 ); /* IE6-9 */
+
+            @include sp {
+              color: #fff;
+              background: #8a1e84;
+              border: 1px solid transparent;
+              background: -moz-linear-gradient(left, #8a1e84 0%, #c86fc0 100%); /* FF3.6-15 */
+              background: -webkit-linear-gradient(left, #8a1e84 0%,#c86fc0 100%); /* Chrome10-25,Safari5.1-6 */
+              background: linear-gradient(to right, #8a1e84 0%,#c86fc0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+              filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a1e84', endColorstr='#c86fc0',GradientType=1 ); /* IE6-9 */
+            }
+          }
+        }
+
+        &::after {
+          content: "";
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+
+        &.active {
+          opacity: 1;
+
+          &::after {
+            display: none;
+          }
+        }
+      }
+
+      &__top {
+        a {
+          line-height: 88px;
+          color: #010101;
+          border: 1px solid #d2d2d2;
+          border-radius: 6px;
+
+          @include sp {
+            line-height: 68px;
+          }
+
+          &:hover {
+            color: #fff;
+            background: #8a1e84;
+            border: 1px solid transparent;
+            background: -moz-linear-gradient(left, #8a1e84 0%, #c86fc0 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(left, #8a1e84 0%,#c86fc0 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to right, #8a1e84 0%,#c86fc0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a1e84', endColorstr='#c86fc0',GradientType=1 ); /* IE6-9 */
+
+            @include sp {
+              color: #010101;
+              border: 1px solid #d2d2d2;
+              background: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+}

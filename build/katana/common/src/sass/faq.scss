@@ -1,0 +1,424 @@
+@import "./style/variables";
+
+.content {
+  background: #f8f8f8;
+  padding: 50px 0;
+
+  @include sp {
+    padding: 30px 17px;
+  }
+
+  &__inner {
+    width: $content;
+    margin: 0 auto;
+    position: relative;
+    background: #fff;
+    border-radius: 7px;
+    padding: 35px 30px 30px;
+    box-sizing: border-box;
+
+    @include sp {
+      width: 100%;
+      padding: 0;
+      background: transparent;
+    }
+  }
+}
+
+.faq {
+  &List {
+    counter-reset: number 0;
+
+    &__item {
+      margin-bottom: 10px;
+
+      @include sp {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+.question {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  font-size: 18px;
+  line-height: 20px;
+  @include space(20);
+  font-weight: bold;
+  color: #972f91;
+  border: 1px solid #a03f99;
+  border-radius: 6px;
+  box-sizing: border-box;
+  padding: 0 55px 0 75px;
+  position: relative;
+  cursor: pointer;
+
+  @include sp {
+    height: auto;
+    min-height: 60px;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 12px 31px 12px 48px;
+  }
+
+  &::before {
+    counter-increment: number;
+    content: "Q"counter(number,decimal-leading-zero);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 40px;
+    border: 2px solid #972f91;
+    font-size: 19px;
+    color: #972f91;
+    font-weight: bold;
+    box-sizing: border-box;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translate(0, -50%);
+
+    @include sp {
+      width: 32px;
+      height: 30px;
+      font-size: 13px;
+      @include space(-20);
+      left: 10px;
+    }
+  }
+
+  &::after {
+    content: "";
+    width: 25px;
+    height: 25px;
+    background: url(/katana/common/img/faq/arrow_close.png) center / cover no-repeat;
+    position: absolute;
+    top: 50%;
+    right: 21px;
+    transform: translate(0, -50%);
+
+    @include sp {
+      width: 20px;
+      height: 20px;
+      right: 10px;
+    }
+  }
+
+  &:hover {
+    color: #fff;
+    background: #8a1e84;
+    background: -moz-linear-gradient(left, #8a1e84 0%, #c86fc0 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #8a1e84 0%,#c86fc0 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #8a1e84 0%,#c86fc0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a1e84', endColorstr='#c86fc0',GradientType=1 ); /* IE6-9 */
+
+    @include sp {
+      color: #972f91;
+      border: 1px solid #a03f99;
+      background: #fff;
+    }
+
+    &::before {
+      color: #fff;
+      border: 2px solid #fff;
+
+      @include sp {
+        border: 2px solid #972f91;
+        color: #972f91;
+      }
+    }
+
+    &::after {
+      background: url(/katana/common/img/faq/arrow_close_on.png) center / cover no-repeat;
+
+      @include sp {
+        background: url(/katana/common/img/faq/arrow_close.png) center / cover no-repeat;
+      }
+    }
+  }
+
+  &.open {
+    color: #fff;
+    background: #8a1e84;
+    background: -moz-linear-gradient(left, #8a1e84 0%, #c86fc0 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #8a1e84 0%,#c86fc0 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #8a1e84 0%,#c86fc0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a1e84', endColorstr='#c86fc0',GradientType=1 ); /* IE6-9 */
+    border: 0;
+    padding-left: 76px;
+
+    @include sp {
+      padding: 12px 32px 12px 49px;
+    }
+
+    &::before {
+      border: 2px solid #fff;
+      color: #fff;
+      left: 16px;
+
+      @include sp {
+        left: 11px;
+      }
+    }
+
+    &::after {
+      background: url(/katana/common/img/faq/arrow_open.png) center / cover no-repeat;
+    }
+  }
+}
+
+.answer {
+  display: none;
+  line-height: 24px;
+  @include space(20);
+  padding: 45px 20px 25px 75px;
+  position: relative;
+  background: #fff;
+
+  @include sp {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 25px 10px 25px 49px;
+  }
+
+  &::before {
+    content: "A";
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 40px;
+    border: 2px solid #972f91;
+    font-size: 24px;
+    color: #972f91;
+    font-weight: bold;
+    box-sizing: border-box;
+    border-radius: 5px;
+    position: absolute;
+    top: 37px;
+    left: 15px;
+
+    @include sp {
+      width: 32px;
+      height: 30px;
+      font-size: 16px;
+      top: 22px;
+      left: 10px;
+    }
+  }
+
+  b {
+    display: block;
+    font-weight: bold;
+    margin-top: 5px;
+
+    @include sp {
+      margin-top: 8px;
+    }
+  }
+
+  ul {
+    li {
+      display: table;
+    }
+
+    &.disc {
+      li {
+        &::before {
+          content: "・";
+          display: table-cell;
+        }
+      }
+    }
+
+    &.series {
+      margin: 36px 0;
+
+      @include sp {
+        margin: 28px 0;
+      }
+
+      li {
+        .theme {
+          display: table-cell;
+        }
+
+        .notes {
+          display: table;
+          font-size: 13px;
+
+          @include sp {
+            font-size: 10px;
+          }
+
+          &::before {
+            content: "※";
+            display: table-cell;
+          }
+        }
+      }
+    }
+  }
+
+  .notes {
+    display: table;
+    &::before {
+      content: "※";
+      display: table-cell;
+    }
+  }
+
+  &__pic {
+    margin: 15px 0 10px;
+
+    @include sp {
+      max-width: 100%;
+      margin: 12px 0 5px;
+    }
+
+    &--caption {
+      display: block;
+      font-size: 12px;
+      line-height: 1;
+      @include space(20);
+      text-align: right;
+      margin-top: 15px;
+
+      @include sp {
+        line-height: 16px;
+        text-align: left;
+        margin-top: 10px;
+      }
+    }
+
+    &--01 {
+      margin-top: 50px;
+
+      @include sp {
+        margin-top: 20px;
+      }
+    }
+
+    &--02 {
+      width: 759px;
+    }
+
+    &--03 {
+      width: 761px;
+
+      .answer__pic--caption {
+        text-align: left;
+      }
+    }
+
+    &--04 {
+      width: 761px;
+    }
+
+    &--05 {
+      width: 759px;
+    }
+
+    &--06 {
+      width: 759px;
+    }
+
+    &--07 {
+      width: 761px;
+    }
+
+    &--08 {
+      width: 758px;
+    }
+
+    &--09 {
+      width: 758px;
+    }
+
+    &--10 {
+      width: 758px;
+
+      .answer__pic--caption {
+        text-align: left;
+      }
+    }
+
+    &--12 {
+      width: (375 / 2) + px;
+
+      @include sp {
+        margin: 12px auto 5px;
+      }
+    }
+  }
+}
+
+.btn {
+  &Area {
+    width: $content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 40px auto;
+
+    @include sp {
+      width: 100%;
+      box-sizing: border-box;
+      margin: 30px auto;
+      padding: 0 17px;
+    }
+
+    a {
+      display: block;
+      width: 100%;
+      font-size: 21px;
+      @include space(80);
+      font-weight: bold;
+      text-align: center;
+      box-sizing: border-box;
+
+      @include sp {
+        font-size: 17px;
+      }
+    }
+
+    .btn {
+      &__top {
+        width: 100%;
+
+        a {
+          line-height: 88px;
+          color: #010101;
+          border: 1px solid #d2d2d2;
+          border-radius: 6px;
+
+          @include sp {
+            line-height: 68px;
+          }
+
+          &:hover {
+            color: #fff;
+            background: #8a1e84;
+            border: 1px solid transparent;
+            background: -moz-linear-gradient(left, #8a1e84 0%, #c86fc0 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(left, #8a1e84 0%,#c86fc0 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to right, #8a1e84 0%,#c86fc0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a1e84', endColorstr='#c86fc0',GradientType=1 ); /* IE6-9 */
+
+            @include sp {
+              color: #010101;
+              border: 1px solid #d2d2d2;
+              background: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+}

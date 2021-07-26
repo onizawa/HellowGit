@@ -1,0 +1,1 @@
+!function(){"use strict";var n=$(".question");$(function(){n.on("click",function(){$(this).toggleClass("open"),$(this).next(".answer").slideToggle()})})}();

@@ -1,0 +1,46 @@
+// clearfix
+@mixin cf {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+//width
+$content: 920px;
+
+//color
+$text1: #141414;
+$text2: #231f14;
+$text3: #545454;
+
+$yellow: #ffc44f;
+$line: #dcdcdc;
+$bg: #f8f8f8;
+
+
+//font
+$noto: "Noto Sans CJK JP";
+$hiragino: "Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
+$serif: 'Noto Serif JP', serif;
+$work: 'Work Sans', sans-serif;
+$roboto: 'Roboto', sans-serif;
+$barlow: 'Barlow', sans-serif;
+
+//breakpoint
+@mixin sp {
+  @media screen and (max-width: 896px) {
+    @content;
+  }
+}
+
+@mixin pc {
+  @media screen and (min-width: 897px) {
+    @content;
+  }
+}
+
+// letter-spacing , text-indent
+@mixin space($target) {
+  letter-spacing: ($target / 1000) + em;
+  text-indent: ($target / 1000) + em;
+}

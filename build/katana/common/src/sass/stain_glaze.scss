@@ -1,0 +1,457 @@
+@import "./style/variables";
+
+.page {
+  .headline {
+    padding-bottom: 20px;
+
+    &__cerabien {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 32px;
+      @include space(20);
+      color: #555454;
+      text-align: center;
+      padding-bottom: 45px;
+
+      @include sp {
+        display: block;
+        font-size: 26px;
+        padding-bottom: 30px;
+      }
+
+      sup {
+        vertical-align: super;
+        font-size: 19px;
+
+        @include sp {
+          font-size: 16px;
+        }
+      }
+
+      & > span {
+        font-size: 10px;
+        line-height: 14px;
+        @include space(20);
+        color: #555454;
+        margin-left: 30px;
+
+        @include sp {
+          display: block;
+          line-height: 15px;
+          margin: 17px 0 0;
+        }
+
+        & > span {
+          display: inline-block;
+          text-align: left;
+        }
+      }
+    }
+  }
+}
+
+.content {
+  background: #f8f8f8;
+  padding: 50px 0;
+
+  @include sp {
+    padding: 30px 17px;
+  }
+
+  &__headline {
+    width: 100%;
+    font-size: 24px;
+    @include space(50);
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 39px;
+
+    @include sp {
+      line-height: 30px;
+      margin-bottom: 17px;
+    }
+  }
+
+  &__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: $content;
+    margin: 0 auto;
+    position: relative;
+    background: #fff;
+    border-radius: 7px;
+    padding: 39px 30px 30px;
+    box-sizing: border-box;
+
+    @include sp {
+      width: 100%;
+      padding: 18px 15px 20px;
+    }
+  }
+}
+
+.stain {
+  &Box {
+    &__inner {
+      background: #fff;
+      border-radius: 6px;
+      overflow: hidden;
+    }
+
+    &__headline {
+      font-size: 19px;
+      @include space(50);
+      font-weight: bold;
+      color: #fff;
+      background: #8a1e84;
+      background: -moz-linear-gradient(left, #8a1e84 0%, #c86fc0 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(left, #8a1e84 0%,#c86fc0 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to right, #8a1e84 0%,#c86fc0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a1e84', endColorstr='#c86fc0',GradientType=1 ); /* IE6-9 */
+      text-align: center;
+      padding: 18px 0;
+
+      @include sp {
+        padding: 13px 0;
+      }
+
+      span {
+        display: block;
+        font-size: 14px;
+        font-weight: normal;
+        margin-top: 5px;
+      }
+    }
+
+    &__pic {
+      border: 1px solid #972f91;
+      border-top: 0;
+      border-radius: 0 0 6px 6px;
+
+      img {
+        width: 100%;
+
+        @include sp {
+          display: block;
+          margin: 0 auto;
+        }
+      }
+    }
+
+    &__description {
+      font-size: 14px;
+      line-height: 17px;
+      margin-top: 10px;
+
+      b {
+        font-weight: bold;
+      }
+    }
+
+    &--anterior {
+      width: 290px;
+
+      @include sp {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+
+      .stainBox__pic {
+        img {
+          width: 254px;
+          padding: 35px 0 37px 12px;
+
+          @include sp {
+            width: 195px;
+            padding: 20px 0;
+          }
+        }
+      }
+    }
+
+    &--postrrior {
+      width: 540px;
+
+      @include sp {
+        width: 100%;
+      }
+
+      .stainBox__pic {
+        img {
+          width: 510px;
+          padding: 30px 0 31px 14px;
+
+          @include sp {
+            width: 285px;
+            padding: 20px 0 20px;
+          }
+        }
+      }
+    }
+
+    &--fc {
+      width: 415px;
+
+      @include sp {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+
+      .stainBox__pic {
+        img {
+          width: 385px;
+          padding: 30px 0 30px 15px;
+
+          @include sp {
+            width: 282px;
+            padding: 20px 0;
+          }
+        }
+      }
+    }
+
+    &--extremal {
+      width: 415px;
+
+      @include sp {
+        width: 100%;
+      }
+
+      .stainBox__pic {
+        img {
+          width: 378px;
+          padding: 28px 0 38px 13px;
+
+          @include sp {
+            width: 282px;
+            padding: 20px 0;
+          }
+        }
+      }
+    }
+  }
+
+  &Table {
+    width: 100%;
+    margin: 30px 0;
+
+    @include sp {
+      position: relative;
+    }
+
+    &__inner {
+      @include sp {
+        overflow: hidden;
+        overflow-x: scroll;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+
+        &::-webkit-scrollbar {
+          display:　none;
+        }
+      }
+
+      &::after {
+        content: "";
+        display: none;
+        width: 30px;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: rgba(0, 0, 0, .4) url(/katana/common/img/arrow_scroll.png) center / 20px no-repeat;
+        border-radius: 7px 0 0 7px;
+        transition: .3s;
+
+        @include sp {
+          display: block;
+        }
+      }
+
+      &.scroll {
+        &::after {
+          opacity: 0;
+        }
+      }
+
+      &.end {
+        &::after {
+          opacity: 0;
+        }
+      }
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+
+      @include sp {
+        width: 860px;
+      }
+    }
+
+    th,td {
+      border: 1px solid #972f91;
+      background: #fff;
+    }
+
+    th {
+      font-size: 18px;
+      @include space(20);
+      font-weight: bold;
+      color: #972f91;
+      padding: 15px 0;
+
+      &.space {
+        width: 140px;
+      }
+
+      &.fc {
+        width: 180px;
+        background: #e0c0de;
+      }
+
+      &.ex {
+        width: 180px;
+        background: #f4eaf4;
+      }
+    }
+
+    td {
+      font-size: 18px;
+      @include space(20);
+      text-align: center;
+      padding: 15px 0;
+
+      sup {
+        vertical-align: super;
+        font-size: 12px;
+      }
+
+      &:first-child {
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+.btn {
+  &Area {
+    width: $content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 40px auto;
+
+    @include sp {
+      width: 100%;
+      box-sizing: border-box;
+      margin: 30px auto;
+      padding: 0 17px;
+    }
+
+    a {
+      display: block;
+      width: 100%;
+      font-size: 21px;
+      @include space(80);
+      font-weight: bold;
+      text-align: center;
+      box-sizing: border-box;
+
+      @include sp {
+        font-size: 17px;
+        min-height: 70px;
+      }
+    }
+
+    .btn {
+      &__color,
+      &__stain,
+      &__framwork {
+        width: 450px;
+        margin-bottom: 20px;
+        position: relative;
+
+        @include sp {
+          width: 47.6%;
+          margin-bottom: 15px;
+        }
+
+        a {
+          line-height: 88px;
+          color: #fff;
+          background: #8a1e84;
+          border: 1px solid transparent;
+          background: -moz-linear-gradient(left, #8a1e84 0%, #c86fc0 100%); /* FF3.6-15 */
+          background: -webkit-linear-gradient(left, #8a1e84 0%,#c86fc0 100%); /* Chrome10-25,Safari5.1-6 */
+          background: linear-gradient(to right, #8a1e84 0%,#c86fc0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a1e84', endColorstr='#c86fc0',GradientType=1 ); /* IE6-9 */
+          border-radius: 6px;
+          transition: .3s;
+
+          @include sp {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            line-height: 20px;
+            padding: 14px 0;
+          }
+
+          &:hover {
+            color: #972f91;
+            border: 1px solid #972f91;
+            background: #fff;
+            background: -moz-linear-gradient(left, #fff 0%, #fff 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(left, #fff 0%,#fff 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to right, #fff 0%,#fff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a1e84', endColorstr='#fff',GradientType=1 ); /* IE6-9 */
+
+            @include sp {
+              color: #fff;
+              background: #8a1e84;
+              border: 1px solid transparent;
+              background: -moz-linear-gradient(left, #8a1e84 0%, #c86fc0 100%); /* FF3.6-15 */
+              background: -webkit-linear-gradient(left, #8a1e84 0%,#c86fc0 100%); /* Chrome10-25,Safari5.1-6 */
+              background: linear-gradient(to right, #8a1e84 0%,#c86fc0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+              filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a1e84', endColorstr='#c86fc0',GradientType=1 ); /* IE6-9 */
+            }
+          }
+        }
+      }
+
+      &__top {
+        width: 100%;
+
+        a {
+          line-height: 88px;
+          color: #010101;
+          border: 1px solid #d2d2d2;
+          border-radius: 6px;
+
+          @include sp {
+            line-height: 68px;
+          }
+
+          &:hover {
+            color: #fff;
+            background: #8a1e84;
+            border: 1px solid transparent;
+            background: -moz-linear-gradient(left, #8a1e84 0%, #c86fc0 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(left, #8a1e84 0%,#c86fc0 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to right, #8a1e84 0%,#c86fc0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a1e84', endColorstr='#c86fc0',GradientType=1 ); /* IE6-9 */
+
+            @include sp {
+              color: #010101;
+              border: 1px solid #d2d2d2;
+              background: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+}

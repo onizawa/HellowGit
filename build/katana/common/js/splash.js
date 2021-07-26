@@ -1,0 +1,1 @@
+!function(){"use strict";var e=$(window),o=$("body"),t=$(".splash");e.on("load",function(){setTimeout(function(){t.fadeOut(2e3)},2e3),setTimeout(function(){o.removeClass("fixed")},4e3)})}();

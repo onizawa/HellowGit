@@ -680,9 +680,28 @@
       }
     }
 
+    .tagList {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 15px;
+
+      &__item {
+        margin-right: 4px;
+
+        @include sp {
+          margin: 0 7px 8px 0;
+        }
+
+        img {
+          height: 39px;
+        }
+      }
+    }
+
     .sinteringTable {
-      width: 414px;
+      width: 100%;
       position: relative;
+      margin-bottom: 30px;
 
       @include sp {
         width: auto;
@@ -691,11 +710,19 @@
       }
 
       &--02 {
+        margin-bottom: 40px;
+
+        @include sp {
+          margin-bottom: 30px;
+        }
+      }
+
+      &--04 {
         margin-bottom: 0;
       }
 
       &__inner {
-        margin-bottom: 50px;
+        margin-bottom: 30px;
 
         @include sp {
           overflow: hidden;
@@ -759,6 +786,10 @@
 
         &:last-child {
           margin-bottom: 0;
+
+          table th {
+            background: rgba(151, 47, 145, .3);
+          }
         }
       }
 
@@ -767,37 +798,38 @@
         display: block;
         font-size: 12px;
         @include space(50);
-        margin-top: 26px;
+        margin-top: 15px;
 
         @include sp {
-          display: table;
           line-height: 16px;
           margin-top: 16px;
         }
 
         &::before {
           content: "※";
-
-          @include sp {
-            display: table-cell;
-          }
         }
       }
     }
 
     &__headline {
+      width: 100%;
       display: block;
       font-size: 23px;
       font-weight: bold;
       @include space(50);
-      padding-bottom: 29px;
+      padding-bottom: 16px;
       background: #fff;
       position: relative;
       z-index: 2;
 
       @include sp {
         font-size: 21px;
-        padding-bottom: 10px;
+        padding-bottom: 17px;
+      }
+
+      sup {
+        font-size: 15px;
+        vertical-align: super;
       }
     }
 
@@ -829,17 +861,21 @@
       background: #fff;
 
       @include sp {
-        width: 414px;
+        width: 860px;
       }
 
       th {
-        @include space(50);
+        font-size: 18px;
+        @include space(20);
+        border-top: 1px solid #972f91;
         border-right: 1px solid #972f91;
         border-bottom: 1px solid #972f91;
         box-sizing: border-box;
         vertical-align: top;
-        text-align: left;
-        padding-bottom: 17px;
+        text-align: center;
+        padding: 17px 0;
+        color: #972f91;
+        background: rgba(151, 47, 145, .1);
 
         @include sp {
           font-size: 14px;
@@ -848,43 +884,33 @@
 
         &.td {
           &--01 {
-            width: 124px;
-
-            @include sp {
-              width: 124px;
-            }
+            width: 127px;
+            border-left: 1px solid #972f91;
           }
 
           &--02 {
-            width: 145px;
-            padding-left: 20px;
-
-            @include sp {
-              width: 145px;
-              padding-left: 15px;
-            }
+            width: 240px;
           }
 
           &--03 {
-            width: 145px;
-            padding-left: 20px;
-            border-right: 0;
+            width: 265px;
+          }
 
-            @include sp {
-              width: 145px;
-              padding-left: 15px;
-            }
+          &--04 {
+            width: 223px;
           }
         }
       }
 
       td {
-        @include space(50);
+        font-size: 18px;
+        @include space(20);
         padding: 18px 0;
         border-right: 1px solid #972f91;
         border-bottom: 1px solid #972f91;
         box-sizing: border-box;
-        vertical-align: top;
+        vertical-align: middle;
+        text-align: center;
 
         @include sp {
           padding: 14px 0;
@@ -892,36 +918,20 @@
 
         &.td {
           &--01 {
-            width: 124px;
-            text-align: center;
-
-            @include sp {
-              width: 124px;
-              text-align: left;
-            }
+            width: 127px;
+            border-left: 1px solid #972f91;
           }
 
           &--02 {
-            width: 145px;
-            text-align: center;
-
-            @include sp {
-              width: 145px;
-              padding-left: 15px;
-              text-align: left;
-            }
+            width: 240px;
           }
 
           &--03 {
-            width: 145px;
-            border-right: 0;
-            text-align: center;
+            width: 265px;
+          }
 
-            @include sp {
-              width: 145px;
-              padding-left: 15px;
-              text-align: left;
-            }
+          &--04 {
+            width: 223px;
           }
         }
 

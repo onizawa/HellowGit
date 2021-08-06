@@ -24,89 +24,181 @@
       <div class="content__inner">
         <div class="sinteringBox">
           <div class="sinteringBox__inner">
-            <div class="sinteringBox__pic">
-              <img src="/katana/common/img/schedule/img_sintering_01.png" alt="ジルコニア焼成スケジュール" class="is--pc">
-              <img src="/katana/common/img/schedule/img_sintering_01_sp.png" alt="ジルコニア焼成スケジュール" class="is--sp">
-            </div>
-          </div>
-          <div class="sinteringBox__inner">
+            <ul class="tagList">
+              <li class="tagList__item">
+                <img src="/katana/common/img/schedule/img_tag_urml.png" alt="UTML">
+              </li>
+              <li class="tagList__item">
+                <img src="/katana/common/img/schedule/img_tag_stml.png" alt="STML">
+              </li>
+              <li class="tagList__item">
+                <img src="/katana/common/img/schedule/img_tag_yml.png" alt="YML">
+              </li>
+              <li class="tagList__item">
+                <img src="/katana/common/img/schedule/img_tag_plus.png" alt="HTML PLUS">
+              </li>
+            </ul>
+            <h2 class="sinteringBox__headline">90分焼成<sup>※</sup></h2>
             <div class="sinteringTable sinteringTable--01">
-              <h2 class="sinteringBox__headline">短時間焼成</h2>
               <div class="sinteringTable__inner">
                 <table>
                   <thead>
                     <tr>
-                      <th class="td--01"></th>
-                      <th class="td--02">
-                        <img src="/katana/common/img/schedule/img_tag_urml.png" alt="UTML" class="tag--urml"><img src="/katana/common/img/schedule/img_tag_stml.png" alt="STML" class="tag--stml">
-                      </th>
-                      <th class="td--03">
-                        <img src="/katana/common/img/schedule/img_tag_html-ht.png" alt="HTML/HT" class="tag--html-ht">
-                        <img src="/katana/common/img/schedule/img_tag_lt.png" alt="LT" class="tag--lt">
-                      </th>
+                      <th class="td--01">工程</th>
+                      <th class="td--02">昇降温速度</th>
+                      <th class="td--03">焼成温度(℃）</th>
+                      <th class="td--04">保持時間</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td class="td--01">最高温度</td>
-                      <td class="td--02"><em class="temperature">1560°C</em></td>
-                      <td class="td--03"><em class="temperature">1515°C</em></td>
+                      <td class="td--01">1</td>
+                      <td class="td--02">50℃ / 分</td>
+                      <td class="td--03">室温 ➡︎ 1400℃</td>
+                      <td class="td--04">ー</td>
                     </tr>
                     <tr>
-                      <td class="td--01">保持時間</td>
-                      <td class="td--03" colspan="2"><em class="time">30分</em></td>
+                      <td class="td--01">2</td>
+                      <td class="td--02">4℃ / 分</td>
+                      <td class="td--03">1400℃ ➡︎ 1500℃</td>
+                      <td class="td--04">ー</td>
                     </tr>
                     <tr>
-                      <td class="td--01">昇温速度</td>
-                      <td class="td--03" colspan="2">35℃ / 分</td>
+                      <td class="td--01">3</td>
+                      <td class="td--02">10℃ / 分</td>
+                      <td class="td--03">1500℃ ➡︎ 1560℃</td>
+                      <td class="td--04">ー</td>
                     </tr>
                     <tr>
-                      <td class="td--01">降温速度</td>
-                      <td class="td--03" colspan="2">-45℃ / 分</td>
+                      <td class="td--01">4</td>
+                      <td class="td--02">ー</td>
+                      <td class="td--03">1560℃</td>
+                      <td class="td--04">16分</td>
+                    </tr>
+                    <tr>
+                      <td class="td--01">5</td>
+                      <td class="td--02">-50℃ / 分</td>
+                      <td class="td--03">1560℃ ➡︎ 室温</td>
+                      <td class="td--04">ー</td>
                     </tr>
                   </tbody>
                 </table>
               </div>
             </div>
+            <h2 class="sinteringBox__headline">7時間焼成</h2>
             <div class="sinteringTable sinteringTable--02">
-              <h2 class="sinteringBox__headline">通常焼成</h2>
               <div class="sinteringTable__inner">
                 <table>
                   <thead>
                     <tr>
-                      <th class="td--01"></th>
-                      <th class="td--02">
-                        <img src="/katana/common/img/schedule/img_tag_urml.png" alt="UTML" class="tag--urml"><img src="/katana/common/img/schedule/img_tag_stml.png" alt="STML" class="tag--stml">
-                      </th>
-                      <th class="td--03">
-                        <img src="/katana/common/img/schedule/img_tag_html-ht.png" alt="HTML/HT" class="tag--html-ht">
-                        <img src="/katana/common/img/schedule/img_tag_lt.png" alt="LT" class="tag--lt">
-                      </th>
+                      <th class="td--01">工程</th>
+                      <th class="td--02">昇降温速度</th>
+                      <th class="td--03">焼成温度(℃）</th>
+                      <th class="td--04">保持時間</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td class="td--01">最高温度</td>
-                      <td class="td--02"><em class="temperature">1550°C</em></td>
-                      <td class="td--03"><em class="temperature">1500°C</em></td>
+                      <td class="td--01">1</td>
+                      <td class="td--02">10℃ / 分</td>
+                      <td class="td--03">室温 ➡︎ 1500℃</td>
+                      <td class="td--04">ー</td>
                     </tr>
                     <tr>
-                      <td class="td--01">保持時間</td>
-                      <td class="td--03" colspan="2"><em class="time">2時間</em></td>
+                      <td class="td--01">2</td>
+                      <td class="td--02">ー</td>
+                      <td class="td--03">1500℃</td>
+                      <td class="td--04">２時間</td>
                     </tr>
                     <tr>
-                      <td class="td--01">昇温速度</td>
-                      <td class="td--03" colspan="2">10℃ / 分</td>
-                    </tr>
-                    <tr>
-                      <td class="td--01">降温速度</td>
-                      <td class="td--03" colspan="2">-10℃ / 分</td>
+                      <td class="td--01">3</td>
+                      <td class="td--02">-10℃ / 分</td>
+                      <td class="td--03">1500℃ ➡︎ 室温</td>
+                      <td class="td--04">ー</td>
                     </tr>
                   </tbody>
                 </table>
               </div>
             </div>
-            <span class="sinteringTable__notes">短時間焼成は、「ノリタケ カタナ®︎F-2 N」を使用。3本ブリッジまで焼成可。</span>
+            <ul class="tagList">
+              <li class="tagList__item">
+                <img src="/katana/common/img/schedule/img_tag_ht.png" alt="HT">
+              </li>
+              <li class="tagList__item">
+                <img src="/katana/common/img/schedule/img_tag_lt.png" alt="LT">
+              </li>
+            </ul>
+            <h2 class="sinteringBox__headline">90分焼成<sup>※</sup></h2>
+            <div class="sinteringTable sinteringTable--03">
+              <div class="sinteringTable__inner">
+                <table>
+                  <thead>
+                    <tr>
+                      <th class="td--01">工程</th>
+                      <th class="td--02">昇降温速度</th>
+                      <th class="td--03">焼成温度(℃）</th>
+                      <th class="td--04">保持時間</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="td--01">1</td>
+                      <td class="td--02">35℃ / 分</td>
+                      <td class="td--03">室温 ➡︎ 1515℃</td>
+                      <td class="td--04">ー</td>
+                    </tr>
+                    <tr>
+                      <td class="td--01">2</td>
+                      <td class="td--02">ー</td>
+                      <td class="td--03">1515℃</td>
+                      <td class="td--04">30分</td>
+                    </tr>
+                    <tr>
+                      <td class="td--01">3</td>
+                      <td class="td--02">-45℃ / 分</td>
+                      <td class="td--03">1515℃ ➡︎ 室温</td>
+                      <td class="td--04">ー</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <h2 class="sinteringBox__headline">7時間焼成</h2>
+            <div class="sinteringTable sinteringTable--04">
+              <div class="sinteringTable__inner">
+                <table>
+                  <thead>
+                    <tr>
+                      <th class="td--01">工程</th>
+                      <th class="td--02">昇降温速度</th>
+                      <th class="td--03">焼成温度(℃）</th>
+                      <th class="td--04">保持時間</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="td--01">1</td>
+                      <td class="td--02">10℃ / 分</td>
+                      <td class="td--03">室温 ➡︎ 1500℃</td>
+                      <td class="td--04">ー</td>
+                    </tr>
+                    <tr>
+                      <td class="td--01">2</td>
+                      <td class="td--02">ー</td>
+                      <td class="td--03">1500℃</td>
+                      <td class="td--04">２時間</td>
+                    </tr>
+                    <tr>
+                      <td class="td--01">3</td>
+                      <td class="td--02">-10℃ / 分</td>
+                      <td class="td--03">1500℃ ➡︎ 室温</td>
+                      <td class="td--04">ー</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <span class="sinteringTable__notes">800℃で取出した場合</span>
           </div>
         </div>
       </div>

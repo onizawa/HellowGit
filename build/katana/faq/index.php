@@ -22,13 +22,17 @@
                 各シリーズの違いを教えて下さい。
               </div>
               <div class="answer">
-                各シリーズは、異なる透光性、機械的特性を有しています。<br>
-                <br>
-                UTML  : シリーズの中で最も高い透光性を持ち、色調のグラデーション（歯頸部の彩度が高く、切端の彩度が低い）を有しています。前歯クラウンやラミネートベニアの作製に適し、ステインを併用することで、更に透明感を高めた修復物の作製ができます。<br>
-                <br>
-                STML：透光性と機械的特性のバランスの取れたシリーズです。色調のグラデーションに加え、透光性のグラデーションを有しています。臼歯クラウンの作製に適しています。<br>
-                <br>
-                HTML：高い機械的特性と色調のグラデーションを有し、ブリッジやフレームの作製に適しています。
+              各シリーズは、異なる透光性、機械的特性を有しています。<br>
+              <br>
+              UTML : シリーズの中で最も高い透光性を有し、前歯クラウンやラミネートベニアの作製に適し、ステインを併用することで、多彩な色調表現が可能です。<br>
+              <br>
+              STML：透光性と機械的特性のバランスのとれたシリーズです。幅広い症例に対し安定した色調表現が可能です。<br>
+              <br>
+              HTML PLUS：最も強度が高いシリーズです。滑らかなグラデーションはそのままに、ロングスパンブリッジまで対応する強度を有しています。<br>
+              <br>
+              YML ： 異なる色調、透光性、機械的強度を有するジルコニア原料を積層したシリーズです。1 枚のディスクで、 透光性を必要とする前歯修復物から、強度を必要とするロングスパンブリッジまでの幅広い症例に対応できます。<br>
+              <br>
+              HT、LT : 陶材焼付に適した単色ジルコニアです。透光性の異なるHT（ハイトランスルーセント）、LT（ロートランスルーセント）の使い分けにより、審美性の高い 陶材焼付ジルコニア修復物を製作できます。
               </div>
             </li>
             <li class="faqList__item">
@@ -36,7 +40,8 @@
                 結晶構造を教えて下さい。
               </div>
               <div class="answer">
-                HTMLは正方晶が多く、STML、UTMLでは立方晶が多くなります。
+                HTML PLUS（HT、LT含む）は正方晶が多く、STML、UTMLでは立方晶が多くなります。<br>
+                YMLはボディ層に正方晶が多く、エナメル層に向かっていくにつれて立方晶が多くなります。
               </div>
             </li>
             <li class="faqList__item">
@@ -49,9 +54,9 @@
                   <img src="/katana/common/img/faq/img_faq_01.png" alt="推奨用途" class="is--pc">
                   <img src="/katana/common/img/faq/img_faq_01_sp.png" alt="推奨用途" class="is--sp">
                   <ul class="series">
-                    <li><span class="theme">UTML：</span>前歯、臼歯クラウン、前歯3本ブリッジまでの症例に適します。</li>
+                    <li><span class="theme">UTML：</span>前歯・臼歯クラウン、3本ブリッジ（前歯、小臼歯のみ）までの症例に適します。</li>
                     <li><span class="theme">STML：</span>前歯、臼歯クラウン、3本ブリッジまでの症例に適します。</li>
-                    <li><span class="theme">HTML：</span>4本ブリッジ以上の強度を必要とする症例に適します。<br><span class="notes">詳細は添付文書を参照してください。</span></li>
+                    <li><span class="theme">HTML PLUS：</span>4本ブリッジ以上の強度を必要とする症例に適します。<br><span class="notes">詳細は添付文書を参照してください。</span></li>
                   </ul>
                   <img src="/katana/common/img/faq/img_faq_11.png" alt="推奨用途" class="is--pc">
                   <img src="/katana/common/img/faq/img_faq_11_sp.png" alt="推奨用途" class="is--sp">
@@ -105,10 +110,10 @@
             </li>
             <li class="faqList__item">
               <div class="question">
-                HTMLの色調設定は？
+                HTML PLUSの色調設定は？
               </div>
               <div class="answer">
-              HTMLは、金属支台歯など遮蔽に適した透光性を有します。
+              HTML PLUSは、金属支台歯など遮蔽に適した透光性を有します。
                 <div class="answer__pic answer__pic--07">
                   <img src="/katana/common/img/faq/img_faq_07.png" alt="スタンダードシェード">
                 </div>
@@ -116,7 +121,19 @@
             </li>
             <li class="faqList__item">
               <div class="question">
-                UTML、STML、HTMLの色調構成は？
+                YMLの色調設定は？
+              </div>
+              <div class="answer">
+                高い透光性を有するエナメル層と、明るく生命感あふれ口腔内で調和するよう色調設定されたボディ層とが、境目のない滑らかなグラデーションを有しています。
+                <div class="answer__pic answer__pic--13">
+                  <img src="/katana/common/img/faq/img_faq_13.png" alt="UTML STML HTML" class="is--pc">
+                  <img src="/katana/common/img/faq/img_faq_13_sp.png" alt="UTML STML HTML" class="is--sp">
+                </div>
+              </div>
+            </li>
+            <li class="faqList__item">
+              <div class="question">
+                UTML、STML、各シリーズの色調構成は？
               </div>
               <div class="answer">
                 UTML 18シェード、STML 14シェード、HTML 14シェードです。
@@ -180,12 +197,12 @@
             </li>
             <li class="faqList__item">
               <div class="question">
-                各シリーズを使用する際の修復物のデザイン時の注意は？
+                UTML、STML、HTML PLUSを使用する際の修復物のデザイン時の注意は？
               </div>
               <div class="answer">
-                UTML、STMLの場合、前歯で0.8mm以上、臼歯で1.0mm以上の厚みを必ず確保してください。カットバックを行う場合についても最小の厚みが確保されていることを確認してください。HTMLの場合、前歯で0.4mm以上、臼歯で0.5mm以上の厚みを確保してください。<br>
+                UTML、STMLの場合、前歯で0.8mm以上、臼歯で1.0mm以上の厚みを必ず確保してください。カットバックを行う場合についても最小の厚みが確保されていることを確認してください。HTML PLUSの場合、前歯で0.4mm以上、臼歯で0.5mm以上の厚みを確保してください。<br>
                 <br>
-                またUTMLでは前歯3本ブリッジ（小臼歯を含む）まで、STMLでは臼歯3ユニットまでとし、前歯ブリッジ製作時の連結部断面積は最低12mm&sup2;以上、臼歯ブリッジでは16 mm&sup2;以上を厳守してください。HTMLは、ロングスパンブリッジに対応でき連結部サイズは、前臼歯とも最低9mm&sup2;以上を確保してください。<br>
+                またUTMLでは前歯3本連結（小臼歯を含む）まで、STMLでは臼歯3本連結までとし、前歯ブリッジ製作時の連結部断面積は最低12mm2以上、臼歯ブリッジでは16 mm2以上を厳守してください。HTML PLUSは、ロングスパンブリッジ（4本連結以上）に対応でき連結部サイズは、前臼歯とも最低9mm2以上を確保してください。
                 <br>
                 <div class="answer__pic answer__pic--09">
                   <img src="/katana/common/img/faq/img_faq_09.png" alt="ジルコニアの最小厚み" class="is--pc">
@@ -193,15 +210,226 @@
                 </div>
               </div>
             </li>
-            <li class="faqList__item">
+            <li class="faqList__item faqList__item--yml01">
               <div class="question">
-                ノリタケ カタナ ジルコニアの焼成スケジュールは従来のジルコニアと同じですか？
+                YMLを使用する際の修復物のデザイン時の注意は？
               </div>
               <div class="answer">
-                従来のジルコニア、ノリタケ カタナ ジルコニアの各シリーズで焼成スケジュールが異なります。必ず下記イラストに従い焼成を行ってください。
+                下記に示すジルコニアの最小厚みを確保しながら修復物をデザインします。
                 <div class="answer__pic answer__pic--10">
                   <img src="/katana/common/img/faq/img_faq_10.png" alt="スケジュール" class="is--pc">
                   <img src="/katana/common/img/faq/img_faq_10_sp.png" alt="スケジュール" class="is--sp">
+                </div>
+                <ul class="disc">
+                  <li>上記に示す最小厚みは、フルジルコニア修復物を製作する場合の厚みとなります。築盛する陶材の厚みは含まないジルコニアの厚みです。</li>
+                  <li>フルジルコニア修復物、陶材築盛用フレームとも、前歯部 0.4mm、臼歯部 0.5mmの厚みは、ディスクの下半分に位置する場合の厚みです。</li>
+                  <li>ラミネートベニアにおいて、陶材を築盛する場合には、ディスクの上半分に位置するフレームの厚みは0.8mm以上確保してください。</li>
+                </ul>
+                <span class="answer__ttl">連結部設定位置と断面積の関係</span>
+                <div class="answer__pic answer__pic--14">
+                  <img src="/katana/common/img/faq/img_faq_14.png" alt="スケジュール" class="is--pc">
+                  <img src="/katana/common/img/faq/img_faq_14_sp.png" alt="スケジュール" class="is--sp">
+                </div>
+                <dl>
+                  <dt>3本連冠以下</dt>
+                  <dd>
+                    <p>連結部断面積はすべてのレイヤー層に設定可能です。</p>
+                    <p class="description description--a">ポンティック数は1歯までです。延長ポンティックを含むブリッジには使用しないでください。</p>
+                  </dd>
+                </dl>
+                <dl>
+                  <dt>4本連冠以上</dt>
+                  <dd>
+                    <p>最低50%以上連結部断面積がディスク下半分に入るように設定してください。</p>
+                    <p class="description description--b">ポンティック数は2歯までとし、2歯のポンティックが連続する場合はポンテイック間の連結断面積を12mm2以上としてください。また延長ポンティック数は1歯までとし、連結断面積を12mm2以上としてください。</p>
+                  </dd>
+                </dl>
+              </div>
+            </li>
+            <li class="faqList__item faqList__item--yml02">
+              <div class="question">
+              「ノリタケ カタナ®︎ ジルコニア」の焼成スケジュールは？
+              </div>
+              <div class="answer">
+                UTML、STML、YML、HTML PLUSは90分焼成、通常焼成とも同じ焼成スケジュールで焼成が可能です。
+                <div class="faqBox">
+                  <div class="faqBox__inner">
+                    <ul class="tagList">
+                      <li class="tagList__item">
+                        <img src="/katana/common/img/schedule/img_tag_urml.png" alt="UTML">
+                      </li>
+                      <li class="tagList__item">
+                        <img src="/katana/common/img/schedule/img_tag_stml.png" alt="STML">
+                      </li>
+                      <li class="tagList__item">
+                        <img src="/katana/common/img/schedule/img_tag_yml.png" alt="YML">
+                      </li>
+                      <li class="tagList__item">
+                        <img src="/katana/common/img/schedule/img_tag_plus.png" alt="HTML PLUS">
+                      </li>
+                    </ul>
+                    <h2 class="faqBox__headline">90分焼成<sup>※</sup></h2>
+                    <div class="faqTable faqTable--01">
+                      <div class="faqTable__inner">
+                        <table>
+                          <thead>
+                            <tr>
+                              <th class="td--01">工程</th>
+                              <th class="td--02">昇降温速度</th>
+                              <th class="td--03">焼成温度(℃）</th>
+                              <th class="td--04">保持時間</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td class="td--01">1</td>
+                              <td class="td--02">50℃ / 分</td>
+                              <td class="td--03">室温 ➡︎ 1400℃</td>
+                              <td class="td--04">ー</td>
+                            </tr>
+                            <tr>
+                              <td class="td--01">2</td>
+                              <td class="td--02">4℃ / 分</td>
+                              <td class="td--03">1400℃ ➡︎ 1500℃</td>
+                              <td class="td--04">ー</td>
+                            </tr>
+                            <tr>
+                              <td class="td--01">3</td>
+                              <td class="td--02">10℃ / 分</td>
+                              <td class="td--03">1500℃ ➡︎ 1560℃</td>
+                              <td class="td--04">ー</td>
+                            </tr>
+                            <tr>
+                              <td class="td--01">4</td>
+                              <td class="td--02">ー</td>
+                              <td class="td--03">1560℃</td>
+                              <td class="td--04">16分</td>
+                            </tr>
+                            <tr>
+                              <td class="td--01">5</td>
+                              <td class="td--02">-50℃ / 分</td>
+                              <td class="td--03">1560℃ ➡︎ 室温</td>
+                              <td class="td--04">ー</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                    <h2 class="faqBox__headline">7時間焼成</h2>
+                    <div class="faqTable faqTable--02">
+                      <div class="faqTable__inner">
+                        <table>
+                          <thead>
+                            <tr>
+                              <th class="td--01">工程</th>
+                              <th class="td--02">昇降温速度</th>
+                              <th class="td--03">焼成温度(℃）</th>
+                              <th class="td--04">保持時間</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td class="td--01">1</td>
+                              <td class="td--02">10℃ / 分</td>
+                              <td class="td--03">室温 ➡︎ 1500℃</td>
+                              <td class="td--04">ー</td>
+                            </tr>
+                            <tr>
+                              <td class="td--01">2</td>
+                              <td class="td--02">ー</td>
+                              <td class="td--03">1500℃</td>
+                              <td class="td--04">２時間</td>
+                            </tr>
+                            <tr>
+                              <td class="td--01">3</td>
+                              <td class="td--02">-10℃ / 分</td>
+                              <td class="td--03">1500℃ ➡︎ 室温</td>
+                              <td class="td--04">ー</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                    <ul class="tagList">
+                      <li class="tagList__item">
+                        <img src="/katana/common/img/schedule/img_tag_ht.png" alt="HT">
+                      </li>
+                      <li class="tagList__item">
+                        <img src="/katana/common/img/schedule/img_tag_lt.png" alt="LT">
+                      </li>
+                    </ul>
+                    <h2 class="faqBox__headline">90分焼成<sup>※</sup></h2>
+                    <div class="faqTable faqTable--03">
+                      <div class="faqTable__inner">
+                        <table>
+                          <thead>
+                            <tr>
+                              <th class="td--01">工程</th>
+                              <th class="td--02">昇降温速度</th>
+                              <th class="td--03">焼成温度(℃）</th>
+                              <th class="td--04">保持時間</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td class="td--01">1</td>
+                              <td class="td--02">35℃ / 分</td>
+                              <td class="td--03">室温 ➡︎ 1515℃</td>
+                              <td class="td--04">ー</td>
+                            </tr>
+                            <tr>
+                              <td class="td--01">2</td>
+                              <td class="td--02">ー</td>
+                              <td class="td--03">1515℃</td>
+                              <td class="td--04">30分</td>
+                            </tr>
+                            <tr>
+                              <td class="td--01">3</td>
+                              <td class="td--02">-45℃ / 分</td>
+                              <td class="td--03">1515℃ ➡︎ 室温</td>
+                              <td class="td--04">ー</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                    <h2 class="faqBox__headline">7時間焼成</h2>
+                    <div class="faqTable faqTable--04">
+                      <div class="faqTable__inner">
+                        <table>
+                          <thead>
+                            <tr>
+                              <th class="td--01">工程</th>
+                              <th class="td--02">昇降温速度</th>
+                              <th class="td--03">焼成温度(℃）</th>
+                              <th class="td--04">保持時間</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td class="td--01">1</td>
+                              <td class="td--02">10℃ / 分</td>
+                              <td class="td--03">室温 ➡︎ 1500℃</td>
+                              <td class="td--04">ー</td>
+                            </tr>
+                            <tr>
+                              <td class="td--01">2</td>
+                              <td class="td--02">ー</td>
+                              <td class="td--03">1500℃</td>
+                              <td class="td--04">２時間</td>
+                            </tr>
+                            <tr>
+                              <td class="td--01">3</td>
+                              <td class="td--02">-10℃ / 分</td>
+                              <td class="td--03">1500℃ ➡︎ 室温</td>
+                              <td class="td--04">ー</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                    <span class="faqTable__notes">800℃で取出した場合</span>
+                  </div>
                 </div>
               </div>
             </li>
@@ -226,7 +454,7 @@
                 焼成後の修復物の取扱い時の注意点は？
               </div>
               <div class="answer">
-                STML、UTMLはLT、HT、HTMLよりも機械的特性に劣るため、適合調整、形態修正の際には過度の力を加えず、注水下又は補綴物を濡らした状態でダイヤモンドバーやダイヤモンド粒子を含むシリコンポイント等で作業をしてください。またブリッジ連結部やマメロン構造部等に鋭利な切込みを入れないでください。
+                STML、UTMLは他シリーズよりも機械的特性に劣るため、適合調整、形態修正の際には過度の力を加えず、注水下又は補綴物を濡らした状態でダイヤモンドバーやダイヤモンド粒子を含むシリコンポイント等で作業をしてください。またブリッジ連結部やマメロン構造部等に鋭利な切込みを入れないでください。
               </div>
             </li>
             <li class="faqList__item">
@@ -263,8 +491,8 @@
                 研磨仕上げは可能ですか？
               </div>
               <div class="answer">
-                可能です。パールサーフェスZを使用することで容易にツヤを出すことが出来ます。<br>
-                UTML、STML、HTMLの色調は、グレーズ仕上げを前提で設定されております。研磨のみで仕上げる場合は目標シェードよりも暗くなるため、目標シェードより明るいシェードを選択してください。
+                可能です。「パールサーフェス®︎」Zを使用することで容易にツヤを出すことが出来ます。マルチレイヤードジルコニアの色調は、グレーズ仕上げを前提で設定されております。<br>
+                研磨のみで仕上げる場合は目標シェードよりも暗くなるため、目標シェードより明るいシェードを選択してください。
               </div>
             </li>
             <li class="faqList__item">
@@ -281,6 +509,31 @@
               </div>
               <div class="answer">
                 可能です。咬合調整後に十分な研磨を行ってください。
+              </div>
+            </li>
+            <li class="faqList__item">
+              <div class="question">
+                YMLの ”オール-イン-ワン”とは具体的にどのような意味ですか？
+              </div>
+              <div class="answer">
+                "オール-イン-ワン"とは、1枚のディスクで様々な症例に対応できるという意味です。独自に開発したジルコニア原料と更なる改良を加えた製造方法により、優れた機械的特性と透光性の両特性を併せ持つことを実現した製品です。<br>
+                "オールインワンソリューション"である「ノリタケ カタナ®ジルコニア」 YMLを使えば、透光性を必要とする前歯修復物から、強度を必要とするロングスパンブリッジまで幅広い症例に対応できます。
+              </div>
+            </li>
+            <li class="faqList__item">
+              <div class="question">
+                なぜ「ノリタケ カタナ®ジルコニア」は透光性や特性を損なうことなく、<br>短時間焼成が可能なのですか？
+              </div>
+              <div class="answer">
+                「ノリタケ カタナ®ジルコニア」のために独自に開発したジルコニア原料と製造方法により、短時間焼成を可能としています。
+              </div>
+            </li>
+            <li class="faqList__item">
+              <div class="question">
+                「ノリタケ カタナ®ジルコニア」の焼成スケジュールは他社のジルコニアと同じですか？
+              </div>
+              <div class="answer">
+                各製造メーカーにより異なります。「ノリタケ カタナ® ジルコニア」シリーズでは、YML、UTML、STML、HTML PLUS（HTとLTは除く）は同じ焼成スケジュールです。90分焼成の場合は1560°C、また、7時間焼成の場合は1550°Cとなります。必ず焼成スケジュール表に従い焼成してください。
               </div>
             </li>
           </ul>

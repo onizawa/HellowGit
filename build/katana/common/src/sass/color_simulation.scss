@@ -244,6 +244,11 @@
         .selectList__name {
           color: #010101;
           background: #fff;
+
+          sup {
+            font-size: 10px;
+            vertical-align: super;
+          }
         }
       }
 
@@ -388,6 +393,7 @@
           &__item {
             width: 129px;
             margin: 19px 9px 0 0;
+            white-space: nowrap;
 
             @include sp {
               width: 32%;
@@ -417,6 +423,12 @@
             //     margin-top: 19px;
             //   }
             // }
+
+            &--html {
+              .selectList__name {
+                @include space(-40);
+              }
+            }
           }
 
           &__pic {
@@ -872,4 +884,16 @@
       }
     }
   }
+}
+
+.zilconia__notes {
+  display: none;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: .05em;
+  margin-top: 16px;
+}
+
+.zilconia__notes.is--show {
+  display: block;
 }

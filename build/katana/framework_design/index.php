@@ -17,7 +17,7 @@
       <img src="/katana/common/img/logo_katana.png" alt="刀 KATANA">
       <span>
         <span>
-          <b>ノリタケ カタナ ジルコニア</b><br>
+          <b>ノリタケ カタナ® ジルコニア</b><br>
           管理医療機器 歯科切削加工用セラミックス<br>
           医療機器認証番号：223AFBZX00185000
         </span>
@@ -32,6 +32,40 @@
         </div>
         <div class="frameworkBox frameworkBox--02">
           <h2 class="frameworkBox__headline">ジルコニアの最小厚み</h2>
+          <div class="frameworkBox__inner frameworkBox__inner--03">
+            <div class="frameworkBox__tag">
+              <img src="/katana/common/img/framework_design/img_tag_yml.png" alt="YML">
+            </div>
+            <ul class="zirconiaList">
+              <li class="zirconiaList__item">
+                <span class="zirconiaList__theme">前歯クラウン</span>
+                <div class="zirconiaList__pic"><img src="/katana/common/img/framework_design/img_zirconia_11.png" alt="前歯クラウン"></div>
+              </li>
+              <li class="zirconiaList__item">
+                <span class="zirconiaList__theme">ラミネートベニア</span>
+                <div class="zirconiaList__pic"><img src="/katana/common/img/framework_design/img_zirconia_12.png" alt="ラミネートベニア"></div>
+              </li>
+              <li class="zirconiaList__item">
+                <span class="zirconiaList__theme">臼歯クラウン</span>
+                <div class="zirconiaList__pic"><img src="/katana/common/img/framework_design/img_zirconia_13.png" alt="臼歯クラウン"></div>
+              </li>
+              <li class="zirconiaList__item">
+                <span class="zirconiaList__theme">インレー</span>
+                <div class="zirconiaList__pic"><img src="/katana/common/img/framework_design/img_zirconia_14.png" alt="インレー"></div>
+              </li>
+              <li class="zirconiaList__item">
+                <span class="zirconiaList__theme">アンレー</span>
+                <div class="zirconiaList__pic"><img src="/katana/common/img/framework_design/img_zirconia_15.png" alt="アンレー"></div>
+              </li>
+            </ul>
+            <div class="notes">
+              <ul class="notes__list">
+                <li class="notes__item">上記に示す最小厚みは、フルジルコニア修復物を製作する場合の厚みとなります。築盛する陶材の厚みは含まないジルコニアの厚みです。</li>
+                <li class="notes__item">フルジルコニア修復物、陶材築盛用フレームとも、前歯部 0.4mm、臼歯部 0.5mmの厚みは、ディスクの下半分に位置する場合の厚みです。</li>
+                <li class="notes__item">ラミネートベニアにおいて、陶材を築盛する場合には、ディスクの上半分に位置するフレームの厚みは0.8mm以上確保してください。</li>
+              </ul>
+            </div>
+          </div>
           <div class="frameworkBox__inner frameworkBox__inner--01">
             <div class="frameworkBox__tag">
               <img src="/katana/common/img/framework_design/img_tag_urml.png" alt="UTML">

@@ -36,7 +36,7 @@
         </div>
       </div>
       <div class="hero__num">
-        <span class="hero__num--theme">ノリタケ カタナ ジルコニア</span>
+        <span class="hero__num--theme">ノリタケ カタナ®︎ ジルコニア</span>
         <span class="hero__num--description">
           管理医療機器 歯科切削加工用セラミックス<br>
           医療機器認証番号：223AFBZX00185000

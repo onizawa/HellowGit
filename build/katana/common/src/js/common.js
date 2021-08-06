@@ -85,7 +85,7 @@
     return false;
   });
 
-  function scrollTable(target) {
+  function scrollTable(target,space) {
     var timeoutScroll;
 
     $(target).scroll(function(){
@@ -111,7 +111,7 @@
       $(target).each(function(){
         var _self = $(this);
 
-        if(_self.width() < $win.width() - 64) {
+        if(_self.width() < $win.width() - space) {
           _self.addClass('arrow--hide');
         }
       });
@@ -119,9 +119,9 @@
   }
 
   $(function(){
-    scrollTable('.scheduleTable__inner');
-    scrollTable('.materialTable__inner');
-    scrollTable('.stainTable__inner');
-    scrollTable('.sinteringTable__inner');
+    scrollTable('.scheduleTable__inner',64);
+    scrollTable('.materialTable__inner',64);
+    scrollTable('.stainTable__inner',64);
+    scrollTable('.sinteringTable__inner',64);
   });
 })();

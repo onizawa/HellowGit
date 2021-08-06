@@ -107,10 +107,10 @@ body {
 }
 
 .hero {
-  width: 800px;
-  height: 390px;
+  width: 920px;
+  height: 382px;
   margin: 0 auto;
-  padding: 50px 0 0;
+  padding: 47px 0 0;
   box-sizing: border-box;
   position: relative;
 
@@ -122,7 +122,7 @@ body {
 
   &__headline {
     width: 500px;
-    margin-left: -83px;
+    margin-left: -22px;
     position: relative;
     z-index: 2;
 
@@ -141,7 +141,7 @@ body {
     font-size: 18px;
     @include space(50);
     font-style: italic;
-    margin: 55px 0 0 55px;
+    margin: 55px 0 0 117px;
 
     @include sp {
       font-size: 12px;
@@ -178,13 +178,13 @@ body {
     @include space(50);
     color: #909090;
     text-align: right;
-    margin: 54px 50px 0 0;
+    margin: 44px 114px 0 0;
 
     @include sp {
       font-size: 14px;
       line-height: 18px;
       text-align: center;
-      margin: 20px auto;
+      margin: 0 auto 20px;
     }
 
     &--inner {
@@ -213,8 +213,8 @@ body {
     color: #909090;
     text-align: center;
     position: absolute;
-    bottom: 38px;
-    left: 100px;
+    bottom: 40px;
+    left: 160px;
 
     @include sp {
       position: relative;
@@ -242,17 +242,17 @@ body {
   }
 
   &__pic {
-    width: 405px;
+    width: 393px;
     position: absolute;
-    top: 25px;
-    right: -2px;
+    top: 5px;
+    right: 54px;
 
     @include sp {
-      width: 244px;
+      width: 281px;
       position: relative;
       top: 0;
       right: 5px;
-      margin: 20px auto 0;
+      margin: 1px auto 0;
     }
 
     img {

@@ -206,6 +206,37 @@
       }
     }
 
+    .notes {
+      background: #f8f8f8 url(/katana/common/img/framework_design/icon_notes.png) center left 8px / 32px no-repeat;
+      padding: 22px 0 22px 45px;
+      margin-top: 14px;
+
+      @include sp {
+        background: #f8f8f8 url(/katana/common/img/framework_design/icon_notes.png) center top 21px / 32px no-repeat;
+        padding: 61px 12px 1px;
+      }
+
+      &__item {
+        font-size: 12px;
+        line-height: 22px;
+        letter-spacing: .05em;
+
+        @include sp {
+          display: table;
+          line-height: 17px;
+          margin-bottom: 17px;
+        }
+
+        &::before {
+          content: "・";
+
+          @include sp {
+            display: table-cell;
+          }
+        }
+      }
+    }
+
     .contraindicationsList {
       display: flex;
       justify-content: space-between;
@@ -259,6 +290,14 @@
     }
 
     &__inner {
+      &--01 {
+        margin-top: 22px;
+
+        @include sp {
+          margin-top: 27px;
+        }
+      }
+
       &--02 {
         margin-top: 22px;
 
@@ -268,7 +307,7 @@
 
         .frameworkBox__tag {
           img {
-            width: 210px;
+            width: 309px;
           }
         }
       }

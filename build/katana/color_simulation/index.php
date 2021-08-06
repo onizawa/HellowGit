@@ -279,16 +279,128 @@
             <ul class="selectList selectList--zilconia">
               <li class="selectList__item">
                 <label>
-                  <input type="checkbox" class="check" value="HT 10" data-zilconia='["light-ew","light-ew0","light-ew00","light-ewy","medium-ew","medium-ew0","medium-ew00","medium-ewy","medium-nw0"]'>
+                  <input type="checkbox" class="check" value="HT 10" data-zilconia='["light-ew","light-ew0","light-ewy","medium-ew","medium-ew0","medium-ewy","medium-nw0"]'>
                   <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_ht10.jpg" alt="HT 10"></div>
                   <div class="selectList__name">HT 10</div>
                 </label>
               </li>
               <li class="selectList__item">
                 <label>
-                  <input type="checkbox" class="check" value="LT 10" data-zilconia='["dark-ew","dark-ew0","dark-ew00","dark-ewy","dark-nw0","light-ew","light-ew0","light-ew00","light-ewy","medium-ew","medium-ew0","medium-ew00","medium-ewy","medium-nw0"]'>
+                  <input type="checkbox" class="check" value="LT 10" data-zilconia='["light-ew00","light-ew0","light-ew","light-ewy","medium-ew00","medium-ew","medium-ew0","medium-ewy","medium-nw0","dark-ew00","dark-ew","dark-ew0","dark-ewy","dark-nw0"]'>
                   <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_lt10.jpg" alt="LT 10"></div>
                   <div class="selectList__name">LT 10</div>
+                </label>
+              </li>
+              <li class="selectList__item">
+                <label>
+                  <input type="checkbox" class="check" value="YML NW" data-zilconia='["light-ewy","medium-ewy","light-nw0","medium-nw0","light-nw0.5","medium-nw0.5","dark-nw0.5","dark-a1","metal-a1","dark-np1.5","metal-np1.5","dark-b1","metal-b1","dark-c1","metal-c1","metal-d2"]'>
+                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_yml-nw.jpg" alt="YML NW"></div>
+                  <div class="selectList__name notes--nw0-5 notes--a1 notes--np1-5 notes--b1 notes--c1 notes--d2">YML NW</div>
+                </label>
+              </li>
+              <li class="selectList__item">
+                <label>
+                  <input type="checkbox" class="check" value="YML A1" data-zilconia='["light-a1","medium-a1","light-np1.5","medium-np1.5","dark-a2","metal-a2","metal-np2.5"]'>
+                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_yml-a1.jpg" alt="YML A1"></div>
+                  <div class="selectList__name notes--a2 notes--np2-5">YML A1</div>
+                </label>
+              </li>
+              <li class="selectList__item">
+                <label>
+                  <input type="checkbox" class="check" value="YML A2" data-zilconia='["light-a2","medium-a2","light-np2.5","medium-np2.5","dark-np2.5","dark-a3","metal-a3"]'>
+                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_yml-a2.jpg" alt="YML A2"></div>
+                  <div class="selectList__name notes--np2-5 notes--a3">YML A2</div>
+                </label>
+              </li>
+              <li class="selectList__item">
+                <label>
+                  <input type="checkbox" class="check" value="YML A3" data-zilconia='["light-a3","medium-a3","metal-a3.5"]'>
+                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_yml-a3.jpg" alt="YML A3"></div>
+                  <div class="selectList__name notes--a3-5">YML A3</div>
+                </label>
+              </li>
+              <li class="selectList__item">
+                <label>
+                  <input type="checkbox" class="check" value="YML A3.5" data-zilconia='["light-a3.5","medium-a3.5","dark-a3.5","metal-a4"]'>
+                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_yml-a3-5.jpg" alt="YML A3.5"></div>
+                  <div class="selectList__name notes--a3-5 notes--a4">YML A3.5</div>
+                </label>
+              </li>
+              <li class="selectList__item">
+                <label>
+                  <input type="checkbox" class="check" value="YML A4" data-zilconia='["light-a4","medium-a4","dark-a4"]'>
+                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_yml-a4.jpg" alt="YML A4"></div>
+                  <div class="selectList__name notes--a4">YML A4</div>
+                </label>
+              </li>
+              <li class="selectList__item">
+                <label>
+                  <input type="checkbox" class="check" value="YML B1" data-zilconia='["light-b1","medium-b1","dark-b2","metal-b2"]'>
+                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_yml-b1.jpg" alt="YML B1"></div>
+                  <div class="selectList__name notes--b2">YML B1</div>
+                </label>
+              </li>
+              <li class="selectList__item">
+                <label>
+                  <input type="checkbox" class="check" value="YML B2" data-zilconia='["light-b2","medium-b2","dark-b3","metal-b3"]'>
+                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_yml-b2.jpg" alt="YML B2"></div>
+                  <div class="selectList__name notes--b3">YML B2</div>
+                </label>
+              </li>
+              <li class="selectList__item">
+                <label>
+                  <input type="checkbox" class="check" value="YML B3" data-zilconia='["light-b3","medium-b3","light-b4","medium-b4","dark-b4","metal-b4"]'>
+                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_yml-b3.jpg" alt="YML B3"></div>
+                  <div class="selectList__name notes--b4">YML B3</div>
+                </label>
+              </li>
+              <li class="selectList__item">
+                <label>
+                  <input type="checkbox" class="check" value="YML C1" data-zilconia='["light-c1","medium-c1","dark-c2","metal-c2"]'>
+                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_yml-c1.jpg" alt="YML C1"></div>
+                  <div class="selectList__name notes--c2">YML C1</div>
+                </label>
+              </li>
+              <li class="selectList__item">
+                <label>
+                  <input type="checkbox" class="check" value="YML C2" data-zilconia='["light-c2","medium-c2","dark-c3","metal-c3"]'>
+                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_yml-c2.jpg" alt="YML C2"></div>
+                  <div class="selectList__name notes--c3">YML C2</div>
+                </label>
+              </li>
+              <li class="selectList__item">
+                <label>
+                  <input type="checkbox" class="check" value="YML C3" data-zilconia='["light-c3","medium-c3","light-c4","medium-c4","dark-c4","metal-c4"]'>
+                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_yml-c3.jpg" alt="YML C3"></div>
+                  <div class="selectList__name notes--c4">YML C3</div>
+                </label>
+              </li>
+              <li class="selectList__item">
+                <label>
+                  <input type="checkbox" class="check" value="YML D2" data-zilconia='["light-d2","medium-d2","dark-d2","dark-d3","metal-d3"]'>
+                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_yml-d2.jpg" alt="YML D2"></div>
+                  <div class="selectList__name notes--d2 notes--d3">YML D2</div>
+                </label>
+              </li>
+              <li class="selectList__item">
+                <label>
+                  <input type="checkbox" class="check" value="YML D3" data-zilconia='["light-d3","medium-d3","light-d4","medium-d4","dark-d4","metal-d4"]'>
+                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_yml-d3.jpg" alt="YML D3"></div>
+                  <div class="selectList__name notes--d4">YML D3</div>
+                </label>
+              </li>
+              <li class="selectList__item">
+                <label>
+                  <input type="checkbox" class="check" value="UTML ENW" data-zilconia='["light-nw0","light-nw0.5","medium-nw0.5"]'>
+                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_utmlenw.jpg" alt="UTML ENW"></div>
+                  <div class="selectList__name">UTML ENW</div>
+                </label>
+              </li>
+              <li class="selectList__item">
+                <label>
+                  <input type="checkbox" class="check" value="UTML EA1" data-zilconia='["light-a1"]'>
+                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_utmlea1.jpg" alt="UTML EA1"></div>
+                  <div class="selectList__name">UTML EA1</div>
                 </label>
               </li>
               <li class="selectList__item">
@@ -398,37 +510,9 @@
               </li>
               <li class="selectList__item">
                 <label>
-                  <input type="checkbox" class="check" value="UTML D4" data-zilconia='["dark-d4"]'>
+                  <input type="checkbox" class="check" value="UTML D4" data-zilconia='["light-d4"]'>
                   <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_utmld4.jpg" alt="UTML D4"></div>
                   <div class="selectList__name">UTML D4</div>
-                </label>
-              </li>
-              <li class="selectList__item">
-                <label>
-                  <input type="checkbox" class="check" value="UTML EA1" data-zilconia='["light-a1"]'>
-                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_utmlea1.jpg" alt="UTML EA1"></div>
-                  <div class="selectList__name">UTML EA1</div>
-                </label>
-              </li>
-              <li class="selectList__item">
-                <label>
-                  <input type="checkbox" class="check" value="UTML EA2" data-zilconia='["light-a2"]'>
-                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_utmlea2.jpg" alt="UTML EA2"></div>
-                  <div class="selectList__name">UTML EA2</div>
-                </label>
-              </li>
-              <li class="selectList__item">
-                <label>
-                  <input type="checkbox" class="check" value="UTML EA3" data-zilconia='["light-a3","light-a3.5","light-np2.5"]'>
-                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_utmlea3.jpg" alt="UTML EA3"></div>
-                  <div class="selectList__name">UTML EA3</div>
-                </label>
-              </li>
-              <li class="selectList__item">
-                <label>
-                  <input type="checkbox" class="check" value="UTML ENW" data-zilconia='["light-nw0","light-nw0.5]'>
-                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_utmlenw.jpg" alt="UTML ENW"></div>
-                  <div class="selectList__name">UTML ENW</div>
                 </label>
               </li>
               <li class="selectList__item">
@@ -510,138 +594,139 @@
               </li>
               <li class="selectList__item">
                 <label>
-                  <input type="checkbox" class="check" value="STML C3" data-zilconia='["light-c3","medium-b3","light-c4"]'>
+                  <input type="checkbox" class="check" value="STML C3" data-zilconia='["light-c3","medium-c3","light-c4"]'>
                   <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_stmlc3.jpg" alt="STML C3"></div>
                   <div class="selectList__name">STML C3</div>
                 </label>
               </li>
               <li class="selectList__item">
                 <label>
-                  <input type="checkbox" class="check" value="STML D2" data-zilconia='["light-d2","medium-b2","light-d4","medium-b4]'>
+                  <input type="checkbox" class="check" value="STML D2" data-zilconia='["light-d2","medium-d2","light-d4","medium-d4"]'>
                   <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_stmld2.jpg" alt="STML D2"></div>
                   <div class="selectList__name">STML D2</div>
                 </label>
               </li>
               <li class="selectList__item">
                 <label>
-                  <input type="checkbox" class="check" value="STML D3" data-zilconia='["light-d3","medium-b3]'>
+                  <input type="checkbox" class="check" value="STML D3" data-zilconia='["light-d3","medium-d3"]'>
                   <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_stmld3.jpg" alt="STML D3"></div>
                   <div class="selectList__name">STML D3</div>
                 </label>
               </li>
-              <li class="selectList__item">
+              <li class="selectList__item selectList__item--html">
                 <label>
-                  <input type="checkbox" class="check" value="HTML NW" data-zilconia='["dark-a1","dark-b1","dark-nw0.5","dark-np1.5","dark-c1","light-ewy","light-nw0","light-nw0.5","medium-ewy","medium-nw0","medium-nw0.5","metal-a1","metal-b1","metal-c1","metal-np1.5","metal-d2"]'>
-                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_htmlnw.jpg" alt="HTML NW"></div>
-                  <div class="selectList__name">HTML NW</div>
+                  <input type="checkbox" class="check" value="HTML PLUS NW" data-zilconia='["dark-a1","dark-b1","dark-nw0.5","dark-np1.5","dark-c1","light-ewy","light-nw0","light-nw0.5","medium-ewy","medium-nw0","medium-nw0.5","metal-a1","metal-b1","metal-c1","metal-np1.5","metal-d2"]'>
+                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_htmlnw.jpg" alt="HTML PLUS NW"></div>
+                  <div class="selectList__name">HTML PLUS NW</div>
+                </label>
+              </li>
+              <li class="selectList__item selectList__item--html">
+                <label>
+                  <input type="checkbox" class="check" value="HTML PLUS A1" data-zilconia='["light-a1","light-np1.5","medium-a1","medium-np1.5","dark-a2","metal-a2","metal-np2.5"]'>
+                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_htmla1.jpg" alt="HTML PLUS A1"></div>
+                  <div class="selectList__name">HTML PLUS A1</div>
+                </label>
+              </li>
+              <li class="selectList__item selectList__item--html">
+                <label>
+                  <input type="checkbox" class="check" value="HTML PLUS A2" data-zilconia='["dark-np2.5","dark-a3","light-a2","light-np2.5","medium-a2","medium-np2.5","metal-a3"]'>
+                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_htmla2.jpg" alt="HTML PLUS A2"></div>
+                  <div class="selectList__name">HTML PLUS A2</div>
+                </label>
+              </li>
+              <li class="selectList__item selectList__item--html">
+                <label>
+                  <input type="checkbox" class="check" value="HTML PLUS A3" data-zilconia='["light-a3","medium-a3","metal-a3.5"]'>
+                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_htmla3.jpg" alt="HTML PLUS A3"></div>
+                  <div class="selectList__name">HTML PLUS A3</div>
+                </label>
+              </li>
+              <li class="selectList__item selectList__item--html">
+                <label>
+                  <input type="checkbox" class="check" value="HTML PLUS A3.5" data-zilconia='["dark-a3.5","light-a3.5","medium-a3.5","metal-a4"]'>
+                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_htmla3-5.jpg" alt="HTML PLUS A3.5"></div>
+                  <div class="selectList__name">HTML PLUS A3.5</div>
+                </label>
+              </li>
+              <li class="selectList__item selectList__item--html">
+                <label>
+                  <input type="checkbox" class="check" value="HTML PLUS A4" data-zilconia='["dark-a4","light-a4","medium-a4"]'>
+                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_htmla4.jpg" alt="HTML PLUS A4"></div>
+                  <div class="selectList__name">HTML PLUS A4</div>
+                </label>
+              </li>
+              <li class="selectList__item selectList__item--html">
+                <label>
+                  <input type="checkbox" class="check" value="HTML PLUS B1" data-zilconia='["dark-b2","light-b1","medium-b1","metal-b2"]'>
+                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_htmlb1.jpg" alt="HTML PLUS B1"></div>
+                  <div class="selectList__name">HTML PLUS B1</div>
+                </label>
+              </li>
+              <li class="selectList__item selectList__item--html">
+                <label>
+                  <input type="checkbox" class="check" value="HTML PLUS B2" data-zilconia='["dark-b3","light-b2","medium-b2","metal-b3"]'>
+                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_htmlb2.jpg" alt="HTML PLUS B2"></div>
+                  <div class="selectList__name">HTML PLUS B2</div>
+                </label>
+              </li>
+              <li class="selectList__item selectList__item--html">
+                <label>
+                  <input type="checkbox" class="check" value="HTML PLUS B3" data-zilconia='["dark-b4","light-b3","light-b4","medium-b3","medium-b4","metal-b4"]'>
+                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_htmlb3.jpg" alt="HTML PLUS B3"></div>
+                  <div class="selectList__name">HTML PLUS B3</div>
+                </label>
+              </li>
+              <li class="selectList__item selectList__item--html">
+                <label>
+                  <input type="checkbox" class="check" value="HTML PLUS C1" data-zilconia='["dark-c2","light-c1","medium-c1","metal-c2"]'>
+                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_htmlc1.jpg" alt="HTML PLUS C1"></div>
+                  <div class="selectList__name">HTML PLUS C1</div>
+                </label>
+              </li>
+              <li class="selectList__item selectList__item--html">
+                <label>
+                  <input type="checkbox" class="check" value="HTML PLUS C2" data-zilconia='["dark-c3","light-c2","medium-c2","metal-c3"]'>
+                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_htmlc2.jpg" alt="HTML PLUS C2"></div>
+                  <div class="selectList__name">HTML PLUS C2</div>
+                </label>
+              </li>
+              <li class="selectList__item selectList__item--html">
+                <label>
+                  <input type="checkbox" class="check" value="HTML PLUS C3" data-zilconia='["dark-c4","light-c3","light-c4","medium-c3","medium-c4","metal-c4"]'>
+                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_htmlc3.jpg" alt="HTML PLUS C3"></div>
+                  <div class="selectList__name">HTML PLUS C3</div>
+                </label>
+              </li>
+              <li class="selectList__item selectList__item--html">
+                <label>
+                  <input type="checkbox" class="check" value="HTML PLUS D2" data-zilconia='["dark-d2","dark-d3","light-d2","medium-d2","metal-d3"]'>
+                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_htmld2.jpg" alt="HTML PLUS D2"></div>
+                  <div class="selectList__name">HTML PLUS D2</div>
+                </label>
+              </li>
+              <li class="selectList__item selectList__item--html">
+                <label>
+                  <input type="checkbox" class="check" value="HTML PLUS D3" data-zilconia='["dark-d4","light-d3","light-d4","medium-d3","medium-d4","metal-d4"]'>
+                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_htmld3.jpg" alt="HTML PLUS D3"></div>
+                  <div class="selectList__name">HTML PLUS D3</div>
                 </label>
               </li>
               <li class="selectList__item">
                 <label>
-                  <input type="checkbox" class="check" value="HTML A1" data-zilconia='["light-a1","light-np1.5","medium-a1","medium-np1.5","dark-a2","metail-np2.5"]'>
-                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_htmla1.jpg" alt="HTML A1"></div>
-                  <div class="selectList__name">HTML A1</div>
-                </label>
-              </li>
-              <li class="selectList__item">
-                <label>
-                  <input type="checkbox" class="check" value="HTML A2" data-zilconia='["dark-np2.5","dark-a3","light-a2","light-np2.5","medium-a2","medium-np2.5","metail-a3"]'>
-                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_htmla2.jpg" alt="HTML A2"></div>
-                  <div class="selectList__name">HTML A2</div>
-                </label>
-              </li>
-              <li class="selectList__item">
-                <label>
-                  <input type="checkbox" class="check" value="HTML A3" data-zilconia='["light-a3","medium-a3","metal-a3.5"]'>
-                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_htmla3.jpg" alt="HTML A3"></div>
-                  <div class="selectList__name">HTML A3</div>
-                </label>
-              </li>
-              <li class="selectList__item">
-                <label>
-                  <input type="checkbox" class="check" value="HTML A3.5" data-zilconia='["dark-a3.5","light-a3.5","medium-a3.5","metal-a4"]'>
-                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_htmla3-5.jpg" alt="HTML A3.5"></div>
-                  <div class="selectList__name">HTML A3.5</div>
-                </label>
-              </li>
-              <li class="selectList__item">
-                <label>
-                  <input type="checkbox" class="check" value="HTML A4" data-zilconia='["dark-a4","light-a4","medium-a4"]'>
-                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_htmla4.jpg" alt="HTML A4"></div>
-                  <div class="selectList__name">HTML A4</div>
-                </label>
-              </li>
-              <li class="selectList__item">
-                <label>
-                  <input type="checkbox" class="check" value="HTML B1" data-zilconia='["dark-b2","light-b1","medium-b1","metal-b2"]'>
-                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_htmlb1.jpg" alt="HTML B1"></div>
-                  <div class="selectList__name">HTML B1</div>
-                </label>
-              </li>
-              <li class="selectList__item">
-                <label>
-                  <input type="checkbox" class="check" value="HTML B2" data-zilconia='["dark-b3","light-b2","medium-b2","metal-b3"]'>
-                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_htmlb2.jpg" alt="HTML B2"></div>
-                  <div class="selectList__name">HTML B2</div>
-                </label>
-              </li>
-              <li class="selectList__item">
-                <label>
-                  <input type="checkbox" class="check" value="HTML B3" data-zilconia='["dark-b4","light-b3","light-b4","medium-b3","medium-b4","metal-b4"]'>
-                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_htmlb3.jpg" alt="HTML B3"></div>
-                  <div class="selectList__name">HTML B3</div>
-                </label>
-              </li>
-              <li class="selectList__item">
-                <label>
-                  <input type="checkbox" class="check" value="HTML C1" data-zilconia='["dark-c2","light-c1","medium-c1","metal-c2"]'>
-                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_htmlc1.jpg" alt="HTML C1"></div>
-                  <div class="selectList__name">HTML C1</div>
-                </label>
-              </li>
-              <li class="selectList__item">
-                <label>
-                  <input type="checkbox" class="check" value="HTML C2" data-zilconia='["dark-c3","light-c2","medium-c2","metal-c3"]'>
-                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_htmlc2.jpg" alt="HTML C2"></div>
-                  <div class="selectList__name">HTML C2</div>
-                </label>
-              </li>
-              <li class="selectList__item">
-                <label>
-                  <input type="checkbox" class="check" value="HTML C3" data-zilconia='["dark-c4","light-c3","light-c4","medium-c3","medium-c4","metal-c4"]'>
-                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_htmlc3.jpg" alt="HTML C3"></div>
-                  <div class="selectList__name">HTML C3</div>
-                </label>
-              </li>
-              <li class="selectList__item">
-                <label>
-                  <input type="checkbox" class="check" value="HTML D2" data-zilconia='["dark-d2","dark-d3","light-d2","medium-d2","metal-d3"]'>
-                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_htmld2.jpg" alt="HTML D2"></div>
-                  <div class="selectList__name">HTML D2</div>
-                </label>
-              </li>
-              <li class="selectList__item">
-                <label>
-                  <input type="checkbox" class="check" value="HTML D3" data-zilconia='["dark-d4","light-d3","light-d4","medium-d3","medium-d4","metal-d4"]'>
-                  <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_htmld3.jpg" alt="HTML D3"></div>
-                  <div class="selectList__name">HTML D3</div>
-                </label>
-              </li>
-              <li class="selectList__item">
-                <label>
-                  <input type="checkbox" class="check" value="HT 10+CZR" data-zilconia='["dark-ew00","dark-ew0","dark-ew","dark-ewy","dark-nw0","dark-nw0.5","dark-a1","dark-np1.5","dark-a2","dark-np2.5","dark-a3","dark-a3.5","dark-a4","dark-b1","dark-b2","dark-b3","dark-b4","dark-c1","dark-c2","dark-c3","dark-c4","dark-d2","dark-d3","dark-d4","light-ew00","light-ew0","light-ew","light-ewy","light-nw0","light-nw0.5","light-a1","light-np1.5","light-a2","light-np2.5","light-a3","light-a3.5","light-a4","light-b1","light-b2","light-b3","light-b4","light-c1","light-c2","light-c3","light-c4","light-d2","light-d3","light-d4","medium-ew00","medium-ew0","medium-ew","medium-ewy","medium-nw0","medium-nw0.5","medium-a1","medium-np1.5","medium-a2","medium-np2.5","medium-a3","medium-a3.5","medium-a4","medium-b1","medium-b2","medium-b3","medium-b4","medium-c1","medium-c2","medium-c3","medium-c4","medium-d2","medium-d3","medium-d4","metal-ew00","metal-ew0","metal-ew","metal-ewy","metal-nw0","metal-nw0.5","metal-a1","metal-np1.5","metal-a2","metal-np2.5","metal-a3","metal-a3.5","metal-a4","metal-b1","metal-b2","metal-b3","metal-b4","metal-c1","metal-c2","metal-c3","metal-c4","metal-d2","metal-d3","metal-d4"]'>
+                  <input type="checkbox" class="check" value="HT 10+CZR" data-zilconia='["light-ew00","light-ew0","light-ew","light-ewy","light-nw0","light-nw0.5","light-a1","light-np1.5","light-a2","light-np2.5","light-a3","light-a3.5","light-a4","light-b1","light-b2","light-b3","light-b4","light-c1","light-c2","light-c3","light-c4","light-d2","light-d3","light-d4","dark-ew00","dark-ew0","dark-ew","dark-ewy","dark-nw0","dark-nw0.5","dark-a1","dark-np1.5","dark-a2","dark-np2.5","dark-a3","dark-a3.5","dark-a4","dark-b1","dark-b2","dark-b3","dark-b4","dark-c1","dark-c2","dark-c3","dark-c4","dark-d2","dark-d3","dark-d4","medium-ew00","medium-ew0","medium-ew","medium-ewy","medium-nw0","medium-nw0.5","medium-a1","medium-np1.5","medium-a2","medium-np2.5","medium-a3","medium-a3.5","medium-a4","medium-b1","medium-b2","medium-b3","medium-b4","medium-c1","medium-c2","medium-c3","medium-c4","medium-d2","medium-d3","medium-d4","metal-ew00","metal-ew0","metal-ew","metal-ewy","metal-nw0","metal-nw0.5","metal-a1","metal-np1.5","metal-a2","metal-np2.5","metal-a3","metal-a3.5","metal-a4","metal-b1","metal-b2","metal-b3","metal-b4","metal-c1","metal-c2","metal-c3","metal-c4","metal-d2","metal-d3","metal-d4"]'>
                   <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_katana.jpg" alt="HT 10+CZR"></div>
                   <div class="selectList__name">HT 10+CZR</div>
                 </label>
               </li>
               <li class="selectList__item">
                 <label>
-                  <input type="checkbox" class="check" value="LT 10+CZR" data-zilconia='["dark-ew00","dark-ew0","dark-ew","dark-ewy","dark-nw0","dark-nw0.5","dark-a1","dark-np1.5","dark-a2","dark-np2.5","dark-a3","dark-a3.5","dark-a4","dark-b1","dark-b2","dark-b3","dark-b4","dark-c1","dark-c2","dark-c4","dark-d2","dark-d3","dark-d4","light-ew00","light-ew0","light-ew","light-ewy","light-nw0","light-nw0.5","light-a1","light-np1.5","light-a2","light-np2.5","light-a3","light-a3.5","light-a4","light-b1","light-b2","light-b3","light-b4","light-c1","light-c2","light-c4","light-d2","light-d3","light-d4","medium-ew00","medium-ew0","medium-ew","medium-ewy","medium-nw0","medium-nw0.5","medium-a1","medium-np1.5","medium-a2","medium-np2.5","medium-a3","medium-a3.5","medium-a4","medium-b1","medium-b2","medium-b3","medium-b4","medium-c1","medium-c2","medium-c4","medium-d2","medium-d3","medium-d4","metal-ew00","metal-ew0","metal-ew","metal-ewy","metal-nw0","metal-nw0.5","metal-a1","metal-np1.5","metal-a2","metal-np2.5","metal-a3","metal-a3.5","metal-a4","metal-b1","metal-b2","metal-b3","metal-b4","metal-c1","metal-c2","metal-c4","metal-d2","metal-d3","metal-d4"]'>
+                  <input type="checkbox" class="check" value="LT 10+CZR" data-zilconia='["light-ew00","light-ew0","light-ew","light-ewy","light-nw0","light-nw0.5","light-a1","light-np1.5","light-a2","light-np2.5","light-a3","light-a3.5","light-a4","light-b1","light-b2","light-b3","light-b4","light-c1","light-c2","light-c3","light-c4","light-d2","light-d3","light-d4","dark-ew00","dark-ew0","dark-ew","dark-ewy","dark-nw0","dark-nw0.5","dark-a1","dark-np1.5","dark-a2","dark-np2.5","dark-a3","dark-a3.5","dark-a4","dark-b1","dark-b2","dark-b3","dark-b4","dark-c1","dark-c2","dark-c3","dark-c4","dark-d2","dark-d3","dark-d4","medium-ew00","medium-ew0","medium-ew","medium-ewy","medium-nw0","medium-nw0.5","medium-a1","medium-np1.5","medium-a2","medium-np2.5","medium-a3","medium-a3.5","medium-a4","medium-b1","medium-b2","medium-b3","medium-b4","medium-c1","medium-c2","medium-c3","medium-c4","medium-d2","medium-d3","medium-d4","metal-ew00","metal-ew0","metal-ew","metal-ewy","metal-nw0","metal-nw0.5","metal-a1","metal-np1.5","metal-a2","metal-np2.5","metal-a3","metal-a3.5","metal-a4","metal-b1","metal-b2","metal-b3","metal-b4","metal-c1","metal-c2","metal-c3","metal-c4","metal-d2","metal-d3","metal-d4"]'>
                   <div class="selectList__pic"><img src="/katana/common/img/color_simulation/img_zilconia_katana.jpg" alt="LT 10+CZR"></div>
                   <div class="selectList__name">LT 10+CZR</div>
                 </label>
               </li>
             </ul>
+            <span class="zilconia__notes">※透光性の高いエナメル層が支台歯に重なる場合は不可</span>
           </div>
         </section>
         <div class="sideBar">
